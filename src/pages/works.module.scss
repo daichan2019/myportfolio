@@ -1,0 +1,18 @@
+.works {
+  padding: 120px 0;
+  .cardWrap {
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+  .cardLink {
+    width: 40%;
+    display: block;
+  }
+  .cardLink:nth-of-type(n + 3) {
+    margin-top: 40px;
+  }
+  .cardLink:nth-of-type(2n) {
+    margin-left: 40px;
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  height: 80px;
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .logo {
+    background-color: #f9f9f9;
+    img {
+      height: 60px;
+    }
+  }
+  .nav {
+    margin-right: 40px;
+  }
+  .navLists {
+    display: flex;
+  }
+  .navItem {
+    font-size: 22px;
+    font-weight: 700;
+    a {
+      color: #333;
+      padding-bottom: 3px;
+    }
+    a:hover {
+      border-bottom: 3px solid #333;
+    }
+  }
+  .navItem + .navItem {
+    margin-left: 40px;
+  }
+}

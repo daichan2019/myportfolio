@@ -1,0 +1,35 @@
+.skillCard {
+  border: 3px solid #eee;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px 30px 20px;
+  box-sizing: border-box;
+
+  .title {
+    font-size: 22px;
+    font-size: 36px;
+  }
+  .iconWrap {
+    margin-top: 20px;
+  }
+  .icon {
+    font-size: 68px;
+  }
+  .skillCardBottom {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  .text {
+    height: 100px;
+    margin-top: 15px;
+    line-height: 1.4;
+  }
+}
+.skillCard:nth-of-type(n + 3) {
+  margin-top: 40px;
+}
+.skillCard:nth-of-type(2n) {
+  margin-left: 40px;
+}

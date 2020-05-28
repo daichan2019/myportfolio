@@ -1,0 +1,42 @@
+.footer {
+  text-align: center;
+  .inner {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+  }
+  .text {
+    font-weight: 600;
+  }
+  .iconList {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .iconListItem {
+    width: 40px;
+    height: 40px;
+  }
+  .iconListItem + .iconListItem {
+    margin-left: 30px;
+  }
+  .icon {
+    width: 100%;
+    height: 100%;
+  }
+  .js {
+    color: #f0db4f;
+  }
+  .react {
+    color: #61dbfb;
+  }
+  .sass {
+    color: #cc6699;
+  }
+  .copyright {
+    margin-top: 20px;
+  }
+}
