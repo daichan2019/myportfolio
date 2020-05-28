@@ -1,12 +1,13 @@
 .footer {
   text-align: center;
+  height: 175px;
   .inner {
     width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 175px;
+    height: 100%;
   }
   .text {
     font-weight: 600;

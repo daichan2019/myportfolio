@@ -1,5 +1,7 @@
 .contact {
-  padding: 120px 0 195px;
+  height: calc(100vh - 80px - 175px);
+  display: flex;
+  align-items: center;
   .iconList {
     margin: 40px auto 0;
     display: flex;

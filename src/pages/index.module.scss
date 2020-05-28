@@ -1,5 +1,7 @@
 .index {
-  padding: 195px 0;
+  height: calc(100vh - 80px - 175px);
+  display: flex;
+  align-items: center;
   .container {
     width: 880px;
     margin: 0 auto;
