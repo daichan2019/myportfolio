@@ -24,6 +24,7 @@ const contact = () => {
                   className={Styles.iconLink}
                   href="https://github.com/daichan2019"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     className={`${Styles.icon} ${Styles.github}`}
@@ -36,6 +37,7 @@ const contact = () => {
                   className={Styles.iconLink}
                   href="https://twitter.com/explore"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     className={`${Styles.icon} ${Styles.twitter}`}
@@ -48,6 +50,7 @@ const contact = () => {
                   className={Styles.iconLink}
                   href="https://www.instagram.com/frate28/?hl=ja"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     className={`${Styles.icon} ${Styles.instagram}`}

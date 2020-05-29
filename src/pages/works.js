@@ -34,6 +34,7 @@ const works = () => {
                 className={Styles.cardLink}
                 href="https://github.com/daichan2019/iSara_sass"
                 target="_blank"
+                rel="noreferrer"
               >
                 <WorksCard
                   src={isara}

@@ -32,6 +32,7 @@ const Footer = () => {
               <img
                 className={`${Styles.icon} ${Styles.gatsby}`}
                 src={gatsbyLogo}
+                alt="gatsbyLogo"
               />
             </li>
             <li className={Styles.iconListItem}>
