@@ -14,8 +14,11 @@
   }
   .cardBottom {
     padding: 20px 30px 20px;
-    height: 215px;
+    min-height: 215px;
     border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .title {
     font-size: 30px;
@@ -28,7 +31,14 @@
     text-align: left;
   }
   .skill {
-    font-size: 18px;
     margin-top: 15px;
+  }
+}
+
+@media screen and(max-width:559px) {
+  .worksCard {
+    .title {
+      font-size: 22px;
+    }
   }
 }

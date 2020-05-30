@@ -10,15 +10,13 @@ import myportfolio from "../images/myportfolio.png"
 const works = () => {
   const works1 = {
     title: "isara.life模写制作LP",
-    text:
-      "模写制作としてisara.lifeのHPを模写しました。HTML,SCSSのアウトプットとして制作しました。",
+    text: "模写制作としてisara.lifeのHPを模写しました。",
     skill: "HTML/SCSS",
   }
 
   const works2 = {
     title: "Portfolioサイト",
-    text:
-      "ReactのアウトプットとしてGatsby.jsを用いて制作しました。コンポーネント化とpropsで値を渡すなど基礎の基礎は実装できました。",
+    text: "ReactのアウトプットとしてGatsby.jsを用いて制作しました。",
     skill: "React/Gatsby.js/SCSS",
   }
 

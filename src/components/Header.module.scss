@@ -52,3 +52,11 @@
     }
   }
 }
+
+@media screen and (max-width: 559px) {
+  .header {
+    .navItem {
+      font-size: 16px;
+    }
+  }
+}

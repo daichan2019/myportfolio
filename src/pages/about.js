@@ -29,7 +29,7 @@ const About = () => {
   }
 
   const js = {
-    language: "JavaScript(ES6)",
+    language: "JavaScript",
     icon: ["fab", "js-square"],
     year: "使用歴:6ヶ月",
     text:

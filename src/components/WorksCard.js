@@ -8,9 +8,11 @@ const WorksCard = props => {
         <img src={props.src} className={Styles.cardImg} />
       </div>
       <div className={Styles.cardBottom}>
-        <h3 className={Styles.title}>{props.title}</h3>
-        <p className={Styles.text}>{props.text}</p>
-        <p className={Styles.skill}>{props.skill}</p>
+        <div className={Styles.textWrap}>
+          <h3 className={Styles.title}>{props.title}</h3>
+          <p className={Styles.text}>{props.text}</p>
+          <p className={Styles.skill}>{props.skill}</p>
+        </div>
       </div>
     </div>
   )

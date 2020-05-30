@@ -16,3 +16,24 @@
     margin-left: 40px;
   }
 }
+
+@media screen and(max-width: 767px) {
+  .works {
+    .cardWrap {
+      flex-direction: column;
+    }
+    .cardLink {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .cardLink:nth-of-type(n + 3) {
+      margin-top: 0;
+    }
+    .cardLink:nth-of-type(2n) {
+      margin-left: 0;
+    }
+    .cardLink + .cardLink {
+      margin: 40px auto 0;
+    }
+  }
+}

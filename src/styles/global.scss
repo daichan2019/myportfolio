@@ -184,6 +184,7 @@ body {
 }
 .container {
   max-width: 1024px;
+  width: 96%;
   margin: 0 auto;
 }
 h2 {
@@ -200,4 +201,22 @@ h4 {
 }
 .subhead {
   text-align: center;
+}
+
+@media screen and(max-width: 559px) {
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .subhead {
+    text-align: center;
+  }
 }

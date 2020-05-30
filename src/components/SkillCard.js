@@ -6,7 +6,7 @@ const SkillCard = props => {
   return (
     <div className={Styles.skillCard}>
       <div className={Styles.skillCardTop}>
-        <h4 className={Styles.title}>{props.language}</h4>
+        <h3 className={Styles.title}>{props.language}</h3>
         <p className={Styles.iconWrap}>
           <FontAwesomeIcon
             className={Styles.icon}
